@@ -21,8 +21,7 @@
         android:gravity="center"
         android:layout_marginTop="60dp"
         android:layout_marginLeft="80dp"
-        android:layout_marginRight="80dp"
-        android:text="Annual - £74.99" />
+        android:layout_marginRight="80dp"/>
 
     <Button
         android:id="@+id/quarterlyPay"
@@ -31,8 +30,7 @@
         android:gravity="center"
         android:layout_marginTop="180dp"
         android:layout_marginLeft="80dp"
-        android:layout_marginRight="80dp"
-        android:text="Quarterly - £24.99" />
+        android:layout_marginRight="80dp" />
 
     <Button
         android:id="@+id/monthlyPay"
@@ -41,8 +39,7 @@
         android:gravity="center"
         android:layout_marginTop="300dp"
         android:layout_marginLeft="80dp"
-        android:layout_marginRight="80dp"
-        android:text="Monthly - £9.99" />
+        android:layout_marginRight="80dp" />
 
     <Button
         android:id="@+id/backButton"
