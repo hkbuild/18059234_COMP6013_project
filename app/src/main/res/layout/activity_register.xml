@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="120dp"
+        android:text="Email: " />
+
+    <EditText
+        android:id="@+id/regEmail"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="180dp"
+        android:text="Username: " />
+
+    <EditText
+        android:id="@+id/regUsername"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="240dp"
+        android:text="Password: " />
+
+    <EditText
+        android:id="@+id/regPassword"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginBottom="20dp"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="285dp"
+        android:text="Confirm Password: " />
+
+    <EditText
+        android:id="@+id/regPassword2"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginBottom="20dp"
+        android:inputType="textPassword" />
+
+
+    <Button
+        android:id="@+id/Continue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="80dp"
+        android:gravity="center"
+        android:text="continue" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="500dp"
+        android:gravity="center"
+        android:text="Back" />
+
+</RelativeLayout>
